@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg1">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQL Database"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"></TextView>
+
+<LinearLayout
+    android:background="@color/bg2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/ed_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID:"
+        android:textSize="30sp"></EditText>
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:textSize="30sp"></EditText>
+
+    <EditText
+        android:id="@+id/ed_surname"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surname:"
+        android:textSize="30sp"></EditText>
+
+    <EditText
+        android:id="@+id/ed_marks"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks:"
+        android:textSize="30sp"></EditText>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:background="@color/bg2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/btn_insert"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="insert"
+            android:textSize="20sp"></Button>
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view"
+        android:padding="5dp"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:textSize="20sp"></Button>
+
+        <Button
+            android:padding="5dp"
+            android:id="@+id/btn_update"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:padding="5dp"
+            android:id="@+id/btn_delete"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:textSize="20sp"></Button>
+    </LinearLayout>
+
+</LinearLayout>
